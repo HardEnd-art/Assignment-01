@@ -95,7 +95,7 @@
 
   /* Main Styles */
   main{
-    margin: 0 150px 0;
+    margin: 0 200px 0;
   }
   /* Vision Section Styles */
   .vision{
@@ -146,4 +146,40 @@
   }
   iframe{
   border-radius: 16px;
+  }
+  /* My Current Goals Styles */
+  .my-Target{
+    margin-bottom: 111px;
+  }
+  .my-goals{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-top: 48px;
+  }
+  .my-target-1, .my-target-2, .my-target-3{
+    padding: 40px;
+    border-radius: 16px;
+  }
+  .my-target-1{
+    background-color: rgb(255, 76, 30, 0.05);
+  }
+  .my-target-2{
+    background-color: rgb(0, 76, 232, 0.05);
+  }
+  .my-target-3{
+    background-color: rgb(255, 223, 0, 0.05);
+  }
+  .column-title{
+    font-size: 24px;
+    font-weight: 900;
+  }
+  .column-description{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .my-Target a:link{
+    font-size: 16px;
+    font-weight: bold;
+    color:rgb(13, 19, 33);
   }
