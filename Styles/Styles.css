@@ -247,5 +247,7 @@
   .footer-img img{
     margin-right: 24px;
   }
-  
+  footer a{
+    text-decoration: none;
+  }
 /* End */
