@@ -1,13 +1,18 @@
 /* Font used in this site */
-.azeret-mono-Normal {
-    font-family: "Azeret Mono", monospace;
-    font-optical-sizing: auto;
-    font-style: normal;
+.azeret-mono-unique {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+  /* Shared Styles */
+  .primary-color{
+    color: #0D1321;
   }
 
-  /* Shared Styles */
-  .text-color{
-    color: #0D1321;
+  /* Header Styles */
+  header{
+    background-image: url();
   }
 
   /* nav styles */
@@ -19,7 +24,7 @@
   }
   .nav-header{
       font-size: 28px;
-      font-weight: 900;
+      font-weight: 800;
   }
   nav ul li{
     list-style: none;
